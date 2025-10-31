@@ -5,7 +5,7 @@ echo ========================================
 echo.
 
 echo [1/4] Setting up GitHub remote...
-git remote set-url origin https://github.com/vaytieudung/shinhanbank.git
+git remote set-url origin https://github.com/shinhanfinancer/vaytieudung.git
 
 echo [2/4] Adding all changes...
 git add .
@@ -27,4 +27,5 @@ echo.
 echo Test locally: test-steps.html
 echo.
 pause
+
 
