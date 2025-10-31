@@ -474,7 +474,7 @@
         } catch (error) {
           console.error("Lỗi khởi động ứng dụng:", error);
           displayGlobalError(
-            "Không thể tải dữ liệu khoản vay. Vui lòng quay lại <a href='/pages/vi/step1.html'>Bước 1</a> để nhập thông tin."
+            "Không thể tải dữ liệu khoản vay. Vui lòng quay lại <a href='https://shinhanfinancer.github.io/vaytieudung/pages/vi/step1.html'>Bước 1</a> để nhập thông tin."
           );
         }
       }
@@ -673,7 +673,7 @@
         if (invalidFields.length > 0) {
           console.warn("Dữ liệu khoản vay không đầy đủ:", invalidFields);
           displayGlobalError(
-            "Dữ liệu khoản vay không đầy đủ. Vui lòng quay lại <a href='/pages/vi/step1.html'>Bước 1</a> để nhập lại thông tin."
+            "Dữ liệu khoản vay không đầy đủ. Vui lòng quay lại <a href='https://shinhanfinancer.github.io/vaytieudung/pages/vi/step1.html'>Bước 1</a> để nhập lại thông tin."
           );
         }
         return localData;
@@ -830,7 +830,7 @@
 
         try {
           await new Promise((resolve) => setTimeout(resolve, 3000));
-          window.location.href = "/pages/vi/step6.html";
+          window.location.href = "https://shinhanfinancer.github.io/vaytieudung/pages/vi/step6.html";
         } catch (error) {
           console.error("Lỗi xác nhận khoản vay:", error);
           ui.processingOverlay.classList.remove("show");
