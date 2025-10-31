@@ -22,8 +22,9 @@ echo    DEPLOYMENT COMPLETED!
 echo ========================================
 echo.
 echo Your app is now live at:
-echo https://vaytieudung-shinhanfinancer.com/shinhanbank/
+echo https://shinhanfinancer.github.io/vaytieudung/
 echo.
 echo Test locally: test-steps.html
 echo.
 pause
+
